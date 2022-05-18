@@ -1,7 +1,19 @@
 body{
    background-color: brown;
+   text-align: center;
+   align-items: center;
 }
 
 .container{
-   background-color: antiquewhite;
+   
+}
+
+.row{
+   align-items: center;
+   justify-items: center;
+}
+
+img{
+   max-width: 100%;
+   height: auto;
 }
