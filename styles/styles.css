@@ -1,11 +1,14 @@
 body{
    background-color: brown;
+   background-image: url('../images/family-album.jpg');
+   background-attachment: fixed;
+   background-size: 110vw;
+   background-position: center;
    text-align: center;
    align-items: center;
 }
 
 .container{
-   
 }
 
 .row{
@@ -16,4 +19,8 @@ body{
 img{
    max-width: 100%;
    height: auto;
+}
+
+header{
+   
 }
