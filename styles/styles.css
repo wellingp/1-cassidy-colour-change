@@ -6,9 +6,11 @@ body{
    background-position: center;
    text-align: center;
    align-items: center;
-}
-
-.container{
+   font-size: 1rem;
+   font-family: 'Shrikhand', cursive;
+   color: rgba(255, 0, 196, 0.7);
+   position: relative;
+   color: rgb(58, 12, 12);
 }
 
 .row{
@@ -17,10 +19,72 @@ body{
 }
 
 img{
-   max-width: 100%;
+   max-width: 80%;
    height: auto;
+   padding: 0;
+   margin: 0;
 }
 
-header{
+p{
+}
+
+h1{
+   font-size: 8vw;
+   /* opacity: 0.9; */
+   color: brown;
+   /* text-shadow:
+    -1px -1px 0 black,
+     0   -1px 0 black,
+     1px -1px 0 black,
+     1px  0   0 black,
+     1px  1px 0 black,
+     0    1px 0 black,
+    -1px  1px 0 black,
+    -1px  0   0 black; */
+   -webkit-font-smoothing: antialiased;
+   position: absolute;
+   top: 45%;
+   left: 0;
+   right: 0;
+   margin: 0 auto;
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) 
+  and (orientation: portrait) {
    
 }
+
+h2{
+   font-family: 'Berkshire Swash', cursive;
+   font-size: 9em;
+   color: blanchedalmond;
+   margin: -5px;
+   padding: -5px;
+   text-shadow:
+    -1px -1px 0 black,
+     0   -1px 0 black,
+     1px -1px 0 black,
+     1px  0   0 black,
+     1px  1px 0 black,
+     0    1px 0 black,
+    -1px  1px 0 black,
+    -1px  0   0 black;
+}
+
+h3{
+   font-size: 0.8em;
+}
+
+#logo{
+   font-size: 4em;
+   color: blanchedalmond;
+}
+
+/* font-family: 'Berkshire Swash', cursive;
+font-family: 'Fugaz One', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Shrikhand', cursive; */
