@@ -1,5 +1,5 @@
 body{
-   background-color: brown;
+   background-color: rgb(169, 54, 54);
    background-image: url('../images/family-album.jpg');
    background-attachment: fixed;
    background-size: 110vw;
@@ -11,6 +11,13 @@ body{
    color: rgba(255, 0, 196, 0.7);
    position: relative;
    color: rgb(58, 12, 12);
+   
+   margin: 0;
+   padding: 0;
+   
+}
+
+header div.row{
 }
 
 .row{
@@ -29,10 +36,9 @@ p{
 }
 
 h1{
-   font-size: 8vw;
+   font-size: 5vw;
    /* opacity: 0.9; */
-   color: brown;
-   /* text-shadow:
+   text-shadow:
     -1px -1px 0 black,
      0   -1px 0 black,
      1px -1px 0 black,
@@ -40,10 +46,10 @@ h1{
      1px  1px 0 black,
      0    1px 0 black,
     -1px  1px 0 black,
-    -1px  0   0 black; */
+    -1px  0   0 black; 
    -webkit-font-smoothing: antialiased;
    position: absolute;
-   top: 45%;
+   top: 50%;
    left: 0;
    right: 0;
    margin: 0 auto;
@@ -55,7 +61,7 @@ h1{
   and (device-height: 640px) 
   and (-webkit-device-pixel-ratio: 2) 
   and (orientation: portrait) {
-   
+   //stuff
 }
 
 h2{
