@@ -1,6 +1,5 @@
 body{
    background-color: rgb(169, 54, 54);
-   background-image: url('../images/family-album.jpg');
    background-attachment: fixed;
    background-size: 110vw;
    background-position: center;
@@ -11,48 +10,53 @@ body{
    color: rgba(255, 0, 196, 0.7);
    position: relative;
    color: rgb(58, 12, 12);
-   
    margin: 0;
    padding: 0;
-   
 }
 
-header div.row{
+header{
+   background-color: rgb(120, 30, 30);
+   background-image: url('../images/family-album.jpg');
+   opacity: 0.9;
+   background-attachment: fixed;
 }
 
-.row{
+div.row{
    align-items: center;
    justify-items: center;
 }
 
 img{
-   max-width: 80%;
+   max-width: 100%;
    height: auto;
-   padding: 0;
-   margin: 0;
+   margin-bottom: 2%;
 }
 
-p{
+#navbar{
+   margin-bottom: 2%;
 }
+
 
 h1{
-   font-size: 5vw;
-   /* opacity: 0.9; */
-   text-shadow:
-    -1px -1px 0 black,
-     0   -1px 0 black,
-     1px -1px 0 black,
-     1px  0   0 black,
-     1px  1px 0 black,
-     0    1px 0 black,
-    -1px  1px 0 black,
-    -1px  0   0 black; 
-   -webkit-font-smoothing: antialiased;
-   position: absolute;
-   top: 50%;
-   left: 0;
-   right: 0;
-   margin: 0 auto;
+   font-size: 2vw;
+   margin: 0;
+   color: blanchedalmond;
+}
+
+.rainbow-class{
+   animation-name: rainbow;
+   animation-duration: 10s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+   /* animation-delay: 2s; */
+   animation-timing-function: ease-in;
+}
+
+@keyframes rainbow {
+   0%   {color: #FF00C6;}
+  25%  {color: #FF5F01;}
+  50%  {color: #02DEFF;}
+  100% {color: #FFFF00;}
 }
 
 /* Portrait */
@@ -61,33 +65,48 @@ h1{
   and (device-height: 640px) 
   and (-webkit-device-pixel-ratio: 2) 
   and (orientation: portrait) {
-   //stuff
+   /* stuff */
 }
 
 h2{
    font-family: 'Berkshire Swash', cursive;
    font-size: 9em;
-   color: blanchedalmond;
-   margin: -5px;
-   padding: -5px;
+   color: rgba(255, 235, 205, 0.6);
+   margin: 0;
+   padding: 0;
    text-shadow:
-    -1px -1px 0 black,
-     0   -1px 0 black,
-     1px -1px 0 black,
-     1px  0   0 black,
-     1px  1px 0 black,
-     0    1px 0 black,
-    -1px  1px 0 black,
-    -1px  0   0 black;
+    -1px -1px 0 brown,
+     0   -1px 0 brown,
+     1px -1px 0 brown,
+     1px  0   0 brown,
+     1px  1px 0 brown,
+     0    1px 0 brown,
+    -1px  1px 0 brown,
+    -1px  0   0 brown;
 }
 
-h3{
+blockquote{
+   font-size: 3em;
+}
+
+h6{
    font-size: 0.8em;
 }
 
 #logo{
    font-size: 4em;
    color: blanchedalmond;
+}
+
+main{
+   padding: 2%;
+   color: beige;
+   font-family: 'Open Sans', sans-serif;
+}
+
+footer{
+   padding: 2%;
+   opacity: 0.5;
 }
 
 /* font-family: 'Berkshire Swash', cursive;
