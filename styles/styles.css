@@ -1,24 +1,17 @@
 body{
-   background-color: rgb(169, 54, 54);
+   background-color: rgb(137, 46, 46);
+   background-image: url('../images/family-album.jpg');
    background-attachment: fixed;
    background-size: 110vw;
    background-position: center;
    text-align: center;
    align-items: center;
    font-size: 1rem;
-   font-family: 'Shrikhand', cursive;
-   color: rgba(255, 0, 196, 0.7);
+   font-family: 'Source Serif Pro', serif;
+   color: #f3aab9;
    position: relative;
-   color: rgb(58, 12, 12);
    margin: 0;
-   padding: 0;
-}
-
-header{
-   background-color: rgb(120, 30, 30);
-   background-image: url('../images/family-album.jpg');
-   opacity: 0.9;
-   background-attachment: fixed;
+   padding-top: 2%;
 }
 
 div.row{
@@ -26,21 +19,80 @@ div.row{
    justify-items: center;
 }
 
-img{
+header img{
    max-width: 100%;
    height: auto;
    margin-bottom: 2%;
+   border-radius: 0;
+   opacity: 100%;
 }
 
-#navbar{
+img{
+   max-width: 70%;
+   height: auto;
+   border-radius: 50px;
+   opacity: 80%;
+   margin-bottom: 4%;
+   box-shadow: 0 5px 10px 5px rgb(87, 7, 7); /*horizontal, vertical, blur, spread */
+}
+
+img:hover{
+   opacity: 100%;
+}
+
+#navbar, footer{
    margin-bottom: 2%;
+   font-family: 'Shrikhand', cursive;
+   color:rgb(87, 7, 7);
 }
 
+h3, footer{
+   background-image: linear-gradient(to right,rgba(255, 0, 198, 0.3), rgba(255, 95, 1, 0.3), rgba(2, 222, 255, 0.3), rgba(255, 255, 0, 0.3));
+}
+
+h1, h2, h3, h4, h5, h6, blockquote, footer{
+   color: white;
+}
 
 h1{
-   font-size: 2vw;
+   font-size: 3vw;
    margin: 0;
-   color: blanchedalmond;
+}
+
+h2{
+   font-family: 'Berkshire Swash', cursive;
+   font-size: 9em;
+   margin: 0;
+   padding: 0;
+   text-shadow: -1px -1px 0 brown, 0 -1px 0 brown, 1px -1px 0 brown, 1px 0 0 brown, 1px 1px 0 brown, 0 1px 0 brown, -1px 1px 0 brown, -1px 0 0 brown;
+}
+
+h3{
+   font-size: 2.5em;
+   font-family: 'Shrikhand', cursive;
+
+}
+
+h6{
+   font-size: 0.8em;
+}
+
+i{
+   font-family: fontawesome;
+}
+
+em{
+   font-weight: bold;
+   font-style: normal;
+}
+
+p{
+   font-size: 1.3em;
+   padding-left: 2%;
+   padding-right: 2%;
+   padding-bottom: 3%;
+   width: 60%;
+   margin: 0 auto;
 }
 
 .rainbow-class{
@@ -68,29 +120,15 @@ h1{
    /* stuff */
 }
 
-h2{
-   font-family: 'Berkshire Swash', cursive;
-   font-size: 9em;
-   color: rgba(255, 235, 205, 0.6);
-   margin: 0;
-   padding: 0;
-   text-shadow:
-    -1px -1px 0 brown,
-     0   -1px 0 brown,
-     1px -1px 0 brown,
-     1px  0   0 brown,
-     1px  1px 0 brown,
-     0    1px 0 brown,
-    -1px  1px 0 brown,
-    -1px  0   0 brown;
-}
-
 blockquote{
-   font-size: 3em;
-}
-
-h6{
-   font-size: 0.8em;
+   font-size: 2em;
+   background-image: linear-gradient(to right,rgba(255, 0, 198, 0.3), rgba(255, 95, 1, 0.3), rgba(2, 222, 255, 0.3), rgba(255, 255, 0, 0.3));
+   border-radius: 10px;
+   transform: skew(-20deg);
+   width: 80%;
+   margin: 0 auto;
+   padding: 2%;
+   margin-bottom: 4%;
 }
 
 #logo{
@@ -99,14 +137,12 @@ h6{
 }
 
 main{
-   padding: 2%;
-   color: beige;
-   font-family: 'Open Sans', sans-serif;
+   background-color: rgba(137, 46, 46, 0.658);
 }
 
 footer{
    padding: 2%;
-   opacity: 0.5;
+   margin-bottom: 0;
 }
 
 /* font-family: 'Berkshire Swash', cursive;
