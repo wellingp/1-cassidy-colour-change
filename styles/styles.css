@@ -36,11 +36,11 @@ img{
    box-shadow: 0 5px 10px 5px rgb(87, 7, 7); /*horizontal, vertical, blur, spread */
 }
 
-.img-flip:hover{
+/* .img-flip:hover{
    transform: rotateY(359deg);
    transition: transform 2s;
   transform-style: preserve-3d;
-}
+} */
 
 .img-hover:hover{
    opacity: 80%;
